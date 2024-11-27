@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="tpJordan.css">
+    <title>Nestori - Experiencia Gastronómica de Élite</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Encabezado -->
+    <header class="header-fondo">
+        <div class="header-contenido">
+            <div class="header-logo">
+                <img src="https://thumbs.dreamstime.com/b/vector-de-ping%C3%BCino-para-el-dibujo-logotipo-o-clip-icono-ilustraci%C3%B3n-estilo-abstracto-elegante-minimalista-este-encantador-del-279905247.jpg" alt="Logo Nestori">
+                <h1>Nestori</h1>
+            </div>
+            <nav class="header-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#galeria">Menú</a>
+                <a href="#Postres">Postres</a>
+                <a href="#reservas">Reservas</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-contenido">
+            <h2 style="font-size: 3rem; margin-bottom: 1rem;">Nestori: Gastronomía de Vanguardia</h2>
+            <p style="font-size: 1.5rem; margin-bottom: 2rem;">Una experiencia culinaria que fusiona tradición e innovación en cada plato</p>
+            <a href="#reservas" style="
+                display: inline-block;
+                background-color: #333;
+                color: white;
+                padding: 1rem 2rem;
+                text-decoration: none;
+                border-radius: 50px;
+                transition: background-color 0.3s ease;
+            " onmouseover="this.style.backgroundColor='#555'" onmouseout="this.style.backgroundColor='#333'">
+                Hacer Reserva
+            </a>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section id="galeria" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Nuestra Carta</h2>
+        <div class="grid md:grid-cols-3 gap-8" id="platos-grid">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://imgs.search.brave.com/IdfHGZrD9dCS0t9CpKpO1rKol5LOytlCtU4w9jyaBkk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cmVjZXRhc2RlcmVj/aHVwZXRlLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNy8w/Mi9UYXJ0YXItZGUt/YXQlQzMlQkFuLTEu/anBn" alt="Plato Gourmet" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Tartar de Atún</h3>
+                    <p class="text-gray-600">Elaborado con atún premium, aguacate y vinagreta de cítricos</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://imgs.search.brave.com/AbxkN0o0xlAhS97ijXX0xfWW15skwxweEFH2X-bVniM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bGFzcmVjZXRhc2Nv/Y2luYS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTAvMDgv/Umlzb3R0by1kZS1z/ZXRhcy15LXRydWZh/LmpwZw" alt="Plato Gourmet" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Risotto de Trufa</h3>
+                    <p class="text-gray-600">Arroz cremoso con trufa negra y parmesano añejo</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://bodegagarzon.com/wp-content/uploads/2018/01/corvina-cook-800x533.jpg" alt="Plato Gourmet" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Corvina</h3>
+                    <p class="text-gray-600">Corvina fresca con reducción de vino blanco y verduras</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--Postres -->
+    <section id="Postres" class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-center mb-12">Nuestros Postres</h2>
+        <div class="grid md:grid-cols-3 gap-8" id="platos-grid">
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://imgs.search.brave.com/FlhmusXvfLil3csexIEcN4hy1hPNYyihy0HlBulHdX4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Y2xhcmluLmNvbS9p/bWcvMjAyMS8wNi8x/Ni9hZUlGTGJJRVNf/MTI1Nng2MjBfXzIu/anBnIzE2MjM4NTI5/MTc5Njk" alt="Postres" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Cannoli Siciliani</h3>
+                    <p class="text-gray-600">elaborados con crujiente masa frita, rellena de cremosa ricotta fresca, chispas de chocolate y frutas confitadas.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://imgs.search.brave.com/QZxePwFmq74rp6T9BQ6vSlZu9Cs6y2GTPnUebbLm730/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nYWxi/YW5pLmVzL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIwLzA4L1Rp/cmFtaXN1LUNob2Nv/bGF0ZS1ibGFuY28u/anBn" alt="Plato Gourmet" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Tiramisú Italiano</h3>
+                    <p class="text-gray-600">hecho con capas de suave queso mascarpone, bizcochos empapados en café y un toque de cacao.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform">
+                <img src="https://imgs.search.brave.com/Y0gBg9v4Tl5fq8M3IZKoiShNoK40t1NFL2B_W2U1XWM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9lcy5j/cmF2aW5nc2pvdXJu/YWwuY29tL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDE4LzA3L2Np/bm5hbW9uLXJvbGxz/LTIuanBn" alt="Postres" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Cinnamon Rolls</h3>
+                    <p class="text-gray-600">rolls de canela suaves y esponjosos, elaborados con un toque de hierro y cubiertos con un glaseado dulce y cremoso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="reservas" class="bg-neutral-100 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Reserva tu Experiencia</h2>
+            <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+                <form id="reserva-form" class="space-y-4">
+                    <div>
+                        <label for="nombre" class="block mb-2">Nombre Completo</label>
+                        <input type="text" id="nombre" required class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2">Email</label>
+                        <input type="email" id="email" required class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <label for="fecha" class="block mb-2">Fecha de Reserva</label>
+                        <input type="date" id="fecha" required class="w-full p-2 border rounded">
+                    </div>
+                    <div>
+                        <label for="mensaje" class="block mb-2">Mensaje Adicional</label>
+                        <textarea id="mensaje" class="w-full p-2 border rounded" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-neutral-800 text-white py-3 rounded-full hover:bg-neutral-700 transition">
+                        Confirmar Reserva
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer style="background-color: #333; color: white; text-align: center; padding: 2rem;">
+        <p>© 2024 Nestori Restaurante</p>
+    </footer>
+
+
+    <script src="tpJordan.js"></script>
+</body>
+</html>
